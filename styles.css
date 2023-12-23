@@ -1,0 +1,135 @@
+body{
+    background: url(https://cdn.discordapp.com/attachments/856613544530280492/1184581710109753354/Logoxdddd.jpg?ex=6595b930&is=65834430&hm=9d53efca79acfa9876d2c6cabf35ca651f3255c3a075139068c6ef85287aff59&) rgba(0, 0, 0, 0.3);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    background-position: center;
+}
+
+body::before {
+    content: '';
+    position: fixed; /* Fija el pseudo-elemento en su lugar */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* Coloca el pseudo-elemento detrás de otros elementos */
+    background: url(https://cdn.discordapp.com/attachments/856613544530280492/1184581710109753354/Logoxdddd.jpg?ex=6595b930&is=65834430&hm=9d53efca79acfa9876d2c6cabf35ca651f3255c3a075139068c6ef85287aff59&) rgba(0, 0, 0, 0.3);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    background-position: center;
+    filter: blur(5px); /* Aplica un desenfoque de 5px al fondo */
+}
+
+.text-center{
+    color: white;
+}
+
+.imagen-r{
+    width: 500px;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.copy{
+    color: white;
+}
+
+.text-code{
+    color: aqua;
+}
+
+.imagen-max{
+    max-width: 100%;
+}
+
+.boton-personalizado {
+    border: none;
+    background-color: #5c5c5c;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.boton-personalizado:hover {
+    background-color: #6e6e6e;
+}
+
+.boton-personalizado:focus,
+.boton-personalizado:active{
+    outline: none;
+}
+
+.desenfoque{
+    filter: blur(10px);
+}
+
+.color-navbar{
+    color: #0090d3;
+}
+
+.carousel-container{
+    max-width: 500px;
+    border-radius: 50px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+.card-container{
+    max-width: 900px;
+    border-radius: 50px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+.card-color{
+    color: #6e6e6e;
+}
+
+.text-decore{
+    color: gray;
+}
+
+.copy-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 500px;
+    color: gray;
+}
+
+.boton-l{
+    color: white;
+
+}
+
+.boton-l:hover {
+    color: #6e6e6e;
+}
+
+.boton-l:focus,
+.boton-l:active{
+    outline: none;
+}
+
+.img-d{
+    border-radius: 10px;
+}
+
+.banner {
+    width: 100%;
+    overflow: hidden;
+}
+
+.banner img {
+    width: 100%;
+    display: block;
+    object-fit: cover; /* Ajusta la imagen sin perder la proporción */
+    /* Opcionalmente, puedes usar object-fit: fill para que la imagen se estire completamente */
+}
